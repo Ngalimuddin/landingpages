@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        html {
+        scroll-behavior: smooth;
+        }
+        .logo{
+            width: 40%;
+        }
+        .azis{
+            width: 500px;
+            margin-top: -50%;
+        }
+
+        h1{
+            text-align: center;
+        }
+        .mynav ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            list-style-type: none;
+            padding: 0;
+            border: 2px solid #00ced1;
+            background-color: #00ced1;
+            }
+
+            .mynav li:not(:last-child) {
+            margin-right: 20px;
+            }
+
+            .mynav a {
+            display: block;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            padding: 7px 15px;
+            }
+
+            .target {
+            position: absolute;
+            border-bottom: 4px solid transparent;
+            z-index: -1;
+            transform: translateX(-60px);
+            }
+
+            .mynav a,
+            .target {
+            transition: all .35s ease-in-out;
+            }
+            .intro{
+                text-align: center;
+                margin-top: 15%;
+            }
+            h2,h5{
+                text-align: center;
+            }
+            .clients{
+                margin-top: 8%;
+            }
+    </style>
+    <title>Abdul Aziz Alimuddin</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <nav class="mynav">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#clients">Clients</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="row">
+                  <div class="col-sm-6 intro">
+                      <h1>Hallo,Im Azis Ammimudin</h1>
+                      <p>Full Stack Developer</p>
+                      <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"><a href="#contact" style="color: #fff;text-decoration: none;">Hire Me</a> </button>
+                        <button type="button" class="btn btn-secondary"><a href="#portfolio" style="color: #fff;text-decoration: none;">See my portfolio</a></button>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./image/aku.png" alt="" class="azis">
+                  </div>
+              </div>
+        </div>
+          <div class="clients" id="clients">
+              <H2>Clients</H2>
+              <br>
+              <div class="row">
+                  <div class="col-md-3">
+                      <img src="./image/tesla-motors-1.svg" alt="" class="logo">
+                  </div>
+                  <div class="col-md-3">
+                      <img src="./image/philips.svg" alt="" style="width: 70%;
+                      margin-top: 25%">
+                  </div>
+                  <div class="col-md-3">
+                      <img src="./image/facebook-1.svg" alt="" style="width: 80%;
+                      margin-top: 16%">
+                  </div>
+                  <div class="col-md-3">
+                      <img src="./image/honda-4.svg" alt="" style="width: 70%;">
+                  </div>    
+              </div>
+          </div>
+          <br>
+          <div class="portfolio" style="margin-top: 3%;" id="portfolio">
+              <h2>Portfolio</h2>
+              <br>
+              <div class="row" style="margin-top: 3%;">
+                  <div class="col-md-3"><div class="card" style="width: 18rem; border: none;">
+                    <img src="./image/undraw_wordpress_utxt.svg" class="card-img-top" alt="..." style="width: 90%; display: block; margin: auto;">
+                    <div class="card-body">
+                    <h5 class="card-title"><a href="#" style="color: #00ced1;text-decoration:none">Wordpress Developer</a></h5>
+                    </div>
+                </div>
+            </div>
+                  <div class="col-md-3"><div class="card" style="width: 18rem; border: none;">
+                    <img src="./image/undraw_web_developer_p3e5.svg" class="card-img-top" alt="..." style="width: 70%; display: block; margin: auto;">
+                    <div class="card-body">
+                    <h5 class="card-title"><a href="#" style="color: #00ced1;text-decoration:none">Web Developer</a></h5>
+                    </div>
+                </div></div>
+                  <div class="col-md-3"> <div class="card" style="width: 18rem; border: none;">
+                    <img src="./image/undraw_mobile_web_2g8b.svg" class="card-img-top" alt="..." style="width: 47%; display: block; margin: auto;">
+                    <div class="card-body">
+                    <h5 class="card-title"><a href="#" style="color: #00ced1;text-decoration:none">Mobile App</a></h5>
+                    </div>
+                </div></div>
+                  <div class="col-md-3"> <div class="card" style="width: 18rem; border: none;">
+                    <img src="./image/undraw_security_o890.svg" class="card-img-top" alt="..." style="width: 70%; display: block; margin: auto;">
+                    <div class="card-body">
+                    <h5 class="card-title"><a href="#" style="color: #00ced1;text-decoration:none">Mobile App</a></h5>
+                    </div>
+                </div></div>
+              </div>
+              <br>
+                <div class="row" style="margin-top: 5%;">
+                    <div class="col-md-3"> <div class="card" style="width: 18rem; border: none;">
+                        <img src="./image/undraw_server_q2pb.svg" class="card-img-top" alt="..." style="width: 50%; display: block; margin: auto;">
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" style="color: #00ced1;text-decoration:none">Database Engineering</a></h5>
+                        </div>
+                    </div></div>
+                    <div class="col-md-3">  <div class="card" style="width: 18rem; border: none;">
+                        <img src="./image/undraw_design_tools_42tf.svg" class="card-img-top" alt="..." style="width: 88%; display: block; margin: auto;">
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" style="color: #00ced1;text-decoration:none">UI/UX</a></h5>
+                        </div>
+                    </div></div>
+                    <div class="col-md-3"><div class="card" style="width: 18rem; border: none;">
+                        <img src="./image/undraw_Business_plan_re_0v81.svg" class="card-img-top" alt="..." style="width: 72%; display: block; margin: auto;">
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" style="color: #00ced1;text-decoration:none">UI/UX</a></h5>
+                        </div>
+                    </div></div>
+                    <div class="col-md-3"><div class="card" style="width: 18rem; border: none;">
+                        <img src="./image/undraw_All_the_data_re_hh4w.svg" class="card-img-top" alt="..." style="width: 62%; display: block; margin: auto;">
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" style="color: #00ced1;text-decoration:none">Data Science</a></h5>
+                        </div>
+                    </div></div>
+                </div> 
+          </div>
+          <div class="contact" style="margin-top: 3%;" id="contact">
+            <h2>Contact</h5>
+                <div class="row" style="margin-top: 5%;">
+                    <div class="col-md-3">
+                        <img src="./image/facebook.svg" alt="" style="display: block; margin: auto;"><br>
+                        <p style="text-align: center; text-decoration: none;"><a href="http://www.facebook.com" style="color: #00ced1;text-decoration:none">Abdul Aziz Alimuddin</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./image/instagram.svg" alt="" style="display: block; margin: auto;"><br>
+                        <p style="text-align: center; text-decoration: none;"><a href="https://www.instagram.com" style="color: #00ced1;text-decoration:none" >abdulaziz18._</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./image/twitter.svg" alt="" style="display: block; margin: auto;"><br>
+                        <p style="text-align: center; text-decoration: none;"><a href="http://twitter.com" style="color: #00ced1;text-decoration:none">makjembuabik</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./image/mail.svg" alt="" style="display: block; margin: auto;"><br>
+                        <p style="text-align: center; text-decoration: none;"><a href="http://gmail.com" style="color: #00ced1;text-decoration:none">abdulazizalimuddin360@gmail.com</a></p>
+                    </div>
+                </div>
+                <br>
+                <div class="row" style="margin-top: 5%;">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <img src="./image/github.svg" alt="" style="display: block; margin: auto;"><br>
+                        <p style="text-align: center; text-decoration: none;"><a href="http://www.github.com" style="color: #00ced1;text-decoration:none">Ngalimuddin</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./image/phone.svg" alt="" style="display: block; margin: auto;"><br>
+                        <p style="text-align: center; color: #00ced1;">083879286121</p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+          </div>
+          <hr>
+          <div>
+              <p style="text-align: center;">2021 Copyright By Abdul Aziz Alimuddin</p>
+          </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
